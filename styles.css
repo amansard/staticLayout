@@ -1,0 +1,395 @@
+/* GENERAL SETUP */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 17px;
+    background-color: #fef4eb;
+}
+
+body {
+    background-color: #fef4eb;
+    height: 200vh;
+    width: vh;
+    margin: 0 auto;
+}
+
+
+/* HEADER LAYOUT */
+
+
+/* Main banner "Looking for an article?" */
+
+.banner1 {
+    height: 5vh;
+    margin-top: -10px;
+    /* margin-bottom: px; */
+    background-color: #f2e4d9;
+    background-size: cover;
+    text-align: center;
+    color: #212123;
+    padding: 1px;
+    padding-top: 20px;
+}
+
+.banner1 a:hover {
+    color: #999999;
+}
+
+.banner1 a {
+    color: #212123;
+    text-decoration: none;
+}
+
+
+/* Side banner "Freelance pricing guide" */
+
+.banner2 {
+    height: 3.5vh;
+    margin-top: -10px;
+    /* margin-bottom: px; */
+    background-color: #212120 !important;
+    background-size: cover;
+    text-align: center;
+    padding: 1px;
+    padding-top: 9px;
+    color: #fef4eb !important;
+    position: fixed;
+    -webkit-transform: rotate(-90deg)translateX(-85%);
+    -webkit-transform-origin: top left;
+    left: 0px;
+    top: 50px;
+    text-align: center;
+    z-index: 999;
+    width: 135vh !important;
+}
+
+.banner2 a:hover {
+    color: #999999;
+}
+
+.banner2 a {
+    color: #fef4eb;
+    text-decoration: none;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 700 !important;
+}
+
+header {
+    margin-bottom: 10px;
+    /* background-color: ; */
+    padding: 8px;
+    padding-top: 55px;
+    height: 5px;
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    /* font-size: px; */
+    letter-spacing: .04em;
+}
+
+nav ul {
+    margin-right: 380px;
+    margin-left: 570px;
+}
+
+nav ul a {
+    color: #212123;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-family: 'Karla', sans-serif;
+    font-size: 17.5px;
+    letter-spacing: .08em;
+    font-weight: 700 !important;
+}
+
+
+/* Navigation Button */
+
+.button {
+    display: inline-block;
+    white-space: nowrap;
+    /* the default for span */
+    position: relative;
+    /* line-height: px; */
+    text-align: center;
+    transition: 0.5s;
+    padding: 17px 20px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    text-decoration: none !important;
+    color: #fef4eb !important;
+    background-color: #212120;
+    border: 3px solid #212120;
+    margin-top: -20px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 3px solid #212120;
+    color: #212120 !important;
+}
+
+.button:hover:before {
+    transition-delay: .1s;
+}
+
+.button:hover:before {
+    transition: 0s;
+}
+
+
+/* "Work Notes" header */
+
+section h1 {
+    margin-top: 200px;
+    margin-left: 350px;
+    font-size: 230px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: black;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 0.8;
+}
+
+
+/* "Articles, resources and..." subheader */
+
+section h2 {
+    margin-top: 200px;
+    margin-left: 350px;
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* "Pricing Guide" Button */
+
+#button1 {
+    /* margin-bottom: -35px !important; */
+    margin-left: 350px;
+    /* display: inline-block;
+    /* the default for span */
+    /*position: relative; */
+    /* line-height: px; */
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 17px 20px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    text-decoration: none;
+    color: #fef4eb !important;
+    background-color: #212120;
+    border: 3px solid #212120;
+}
+
+#button1:hover {
+    background-color: transparent;
+    border: 3px solid #212120;
+    color: #212120 !important;
+}
+
+#button1:hover:before {
+    transition-delay: .1s;
+}
+
+#button1:hover:before {
+    transition: 0s;
+}
+
+.button2 {
+    position: relative;
+    z-index: 2;
+    top: 31px;
+    margin-left: 570px;
+    text-align: center;
+    transition: 0.5s;
+    padding: 17px 20px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    text-decoration: none !important;
+    background-color: transparent;
+    border: 3px solid #212120;
+    color: #212120 !important;
+}
+
+.button2:hover {
+    color: #fef4eb !important;
+    background-color: #212120;
+    outline: none;
+}
+
+.button2:hover:before {
+    transition-delay: .1s;
+}
+
+.button2:hover:before {
+    transition: 0s;
+}
+
+
+/* Recent blogs grid container */
+
+.col-sm {
+    position: relative;
+    z-index: 2;
+    top: -100px;
+    left: -45px;
+}
+
+#column1Header {
+    font-family: 'Karla', sans-serif;
+    font-size: 75px;
+    font-weight: 700 !important;
+    padding-bottom: 60px;
+}
+
+#column2Header,
+#column3Header {
+    font-family: 'Karla', sans-serif;
+    font-size: 75px;
+    font-weight: 700 !important;
+    padding-bottom: 60px;
+    color: #fef4eb;
+}
+
+h6 {
+    font-size: 24px !important;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    letter-spacing: .02em;
+    padding-bottom: 30px;
+    line-height: 1.5em;
+}
+
+#column1SubHeader,
+#column2SubHeader,
+#column3SubHeader {
+    font-family: 'Karla', sans-serif;
+    font-size: 27px;
+    font-weight: 700 !important;
+    padding-bottom: px;
+}
+
+.columnButton {
+    text-align: center;
+    transition: 0.5s;
+    padding: 17px 20px;
+    cursor: pointer;
+    -webkit-transition: 0.5s;
+    text-decoration: none !important;
+    color: #fef4eb !important;
+    background-color: #212120;
+    border: 3px solid #212120;
+}
+
+.columnButton:hover {
+    background-color: transparent;
+    border: 3px solid #212120;
+    color: #212120 !important;
+}
+
+.columnButton:hover:before {
+    transition-delay: .1s;
+}
+
+.columnButton:hover:before {
+    transition: 0s;
+}
+
+
+/*
+header,
+nav,
+section,
+main,
+article,
+aside,
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1%;
+}
+
+nav {
+    height: 50px;
+} /*
+
+
+/* lines elements up next to each other instead of on top of one another */
+
+#navUl {
+    display: flex !important;
+}
+
+
+/*gets rid of dots in between*/
+
+nav li {
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+
+/* MAIN LAYOUT */
+
+#main {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    margin-top: 20%;
+}
+
+section,
+article {
+    flex: 4;
+    /* setction and article will take up 80% of the viewport (4/(4+1) */
+}
+
+aside {
+    flex: 1;
+    /* aside will take up 20% of the viewport (1/(1+4)) */
+}
+
+aside a {
+    float: left;
+    width: 50%;
+}
+
+
+/* aside img ( max-width: 100%;
+) */
+
+
+/* FOOTER */
+
+footer {
+    margin-top: 10px;
+}
